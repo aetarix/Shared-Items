@@ -1,11 +1,10 @@
 # Shared-Items
-Add on items for QBCore based servers.
-Simply add the following into your qbcore/shared/items.lua
-Move images from the images folder into your inventory/html/images folder.
-Restart server and your done. Hope this helps
-Join the Discord for other helpful scripts and snippets: https://discord.gg/fTGm36CERk
+## Add on items for QBCore based servers.
+## Simply add the following into your qbcore/shared/items.lua
+## Move images from the images folder into your inventory/html/images folder.
+## Restart server and your done. Hope this helps
+## Join the Discord for other helpful scripts and snippets: https://discord.gg/fTGm36CERk
 
-{
 	-- Food ITEMS
 	['sandwich1'] 					 	= {['name'] = 'sandwich1', 			 	  		   ['label'] = 'Egg Sandwich', 				['weight'] = 175, 			['type'] = 'item', 		['image'] = 'sandwich1.png', 			['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Nice to eat'},
 	['sandwich2'] 					 	= {['name'] = 'sandwich2', 			 	  		   ['label'] = 'Ham Sandwich', 				['weight'] = 175, 			['type'] = 'item', 		['image'] = 'sandwich2.png', 			['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Nice to eat'},
@@ -62,4 +61,3 @@ Join the Discord for other helpful scripts and snippets: https://discord.gg/fTGm
 	['drink22'] 					 	= {['name'] = 'drink22', 			 	  		   ['label'] = 'Hot Chocolate', 			['weight'] = 200, 			['type'] = 'item', 		['image'] = 'drink22.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Nice to eat'},
 	['drink23'] 					 	= {['name'] = 'drink23', 			 	  		   ['label'] = 'Coffee', 					['weight'] = 200, 			['type'] = 'item', 		['image'] = 'drink23.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Nice to eat'},
 	['drink24'] 					 	= {['name'] = 'drink24', 			 	  		   ['label'] = 'Tea', 						['weight'] = 200, 			['type'] = 'item', 		['image'] = 'drink24.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Nice to eat'},
-}
